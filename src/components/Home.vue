@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import gql from 'graphql-tag'
 import NewPost from '@/components/NewPost'
 import PostList from '@/components/PostList'
+import gql from 'graphql-tag'
 
-const queryPost = gql`
+const allPostsQuery = gql`
     query allPosts {
         allPosts {
             _id
@@ -31,7 +31,7 @@ export default {
     }),
     apollo: {
         allPosts: {
-            query: queryPost
+            query: allPostsQuery
         }
     },
     components: {

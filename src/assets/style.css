@@ -114,6 +114,13 @@
     text-transform: uppercase;
 }
 
+._tpnch {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    z-index: 1;
+    height: 66px;
+}
+
 @media (min-width: 640px) {
     ._s5vjd {
         background-color: #fff;

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light _tpnch">
       <div class="container">
         <router-link class="navbar-brand" to="/">Instagram</router-link>
       
